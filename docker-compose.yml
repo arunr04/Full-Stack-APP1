@@ -3,7 +3,7 @@ services:
   catalog-module:
     image: arunr04/catalog-service
     ports:
-     - "80:80"
+     - "95:95"
   redis:
     image: redis:alpine
   Review-Module:
