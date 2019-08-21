@@ -13,4 +13,4 @@ services:
   Order-Module:
     image: arunr04/order-service
     ports:
-     - "100:100"
+     - "110:110"
