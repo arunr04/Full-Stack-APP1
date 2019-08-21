@@ -9,8 +9,8 @@ services:
   Review-Module:
     image: arunr04/review-service
     ports:
-     - "100:100"
+     - "95:95"
   Order-Module:
     image: arunr04/order-service
     ports:
-     - "110:110"
+     - "100:100"
