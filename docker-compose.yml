@@ -3,14 +3,14 @@ services:
   catalog-module:
     image: arunr04/catalog-service
     ports:
-     - "90:90"
+     - "80:80"
   redis:
     image: redis:alpine
   Review-Module:
     image: arunr04/review-service
     ports:
-     - "95:95"
+     - "90:90"
   Order-Module:
     image: arunr04/order-service
     ports:
-     - "110:110"
+     - "100:100"
